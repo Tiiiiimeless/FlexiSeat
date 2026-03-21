@@ -1,0 +1,13 @@
+﻿  FlexiSeat.cpp
+G:\VisualStudioProject\C++\FlexiSeat\FlexiSeat.cpp(56,20): error C2131: 表达式的计算结果不是常数
+      G:\VisualStudioProject\C++\FlexiSeat\FlexiSeat.cpp(56,20):
+      因读取超过生命周期的变量而失败
+      G:\VisualStudioProject\C++\FlexiSeat\FlexiSeat.cpp(56,20):
+      请参见“i”的用法
+  
+G:\VisualStudioProject\C++\FlexiSeat\FlexiSeat.cpp(56,23): error C2131: 表达式的计算结果不是常数
+      G:\VisualStudioProject\C++\FlexiSeat\FlexiSeat.cpp(56,23):
+      因读取超过生命周期的变量而失败
+      G:\VisualStudioProject\C++\FlexiSeat\FlexiSeat.cpp(56,23):
+      请参见“j”的用法
+  
