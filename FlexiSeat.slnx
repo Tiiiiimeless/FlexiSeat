@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="FlexiSeat.vcxproj" />
+  <Project Path="FlexiSeat.vcxproj" Id="7cbede78-6702-4106-ba4f-c9575e0a30a2" />
 </Solution>
