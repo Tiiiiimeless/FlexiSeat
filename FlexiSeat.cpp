@@ -2,8 +2,6 @@
 #include <iomanip>
 #include "struct_Student.h"
 
-//如果将该结构体打包为.h头文件，因为无法简单的将二维结构体数组作为函参传入函数，所以将for循环放在外面，将结构体传入函数，进行下一步操作
-
 int main() {
 	Student student[41][21]; //仿动态数组，且x_max为40，y_max为20
 	int r = 0, l = 0, g = 0; //r:行数，l:列数，g:间隔数
