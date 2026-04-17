@@ -33,22 +33,30 @@ class Student {
 public:
 	Student() : studentName("name"), coor_x(0), coor_y(0) {};
 	void setStudentCoordinates(unsigned int x, unsigned int y);
-	void printStudentCoordinatesSystem(unsigned int x, unsigned int y);
+	void printStudentCoordinatesSystem(unsigned int x, unsigned int y) const;
+	void printStudentName() const;
 private:
 	unsigned int coor_x;
 	unsigned int coor_y;
 	std::string studentName;
 };
 
-void Student::setStudentCoordinates(unsigned int x, unsigned int y) {
+void Student::setStudentCoordinates(unsigned int x, unsigned int y)
+{
 	coor_x = x;
 	coor_y = y;
 };
 
-void Student::printStudentCoordinatesSystem(unsigned int x, unsigned int y) {
+void Student::printStudentCoordinatesSystem(unsigned int x, unsigned int y) const
+{
 	std::cout << "(";
 	std::cout << std::setw(2) << coor_x;
 	std::cout << ",";
 	std::cout << std::setw(2) << coor_y;
 	std::cout << ")";
+}
+
+void Student::printStudentName() const
+{
+	std::cout << " " << studentName << "  ";
 }
